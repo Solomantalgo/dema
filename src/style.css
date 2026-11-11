@@ -274,3 +274,11 @@ body{font-size:16px}
   .quote-title h3{font-size:18px}
   .footer .brand-caption{font-size:8px}
 }
+
+/* Let the Kampala photograph read clearly behind the rooted-here copy. */
+.why-photo img{opacity:.76;filter:saturate(1.08)}
+.why-overlay{background:linear-gradient(90deg,rgba(24,6,76,.66) 0%,rgba(33,7,105,.4) 58%,rgba(33,7,105,.2) 100%)}
+@media(max-width:800px){
+  .why-photo img{opacity:.72}
+  .why-overlay{background:linear-gradient(90deg,rgba(24,6,76,.72),rgba(33,7,105,.42))}
+}
