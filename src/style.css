@@ -183,6 +183,11 @@ html,body,#root{overflow-x:clip}
   .person-card:last-child:nth-child(odd){width:calc((100% - 9px)/2)}
 }
 
+/* Keep Atlas totals on the section surface and land mobile filters on results. */
+.atlas-totals b{background:transparent;color:var(--blue-deep);padding:0}
+.district-results{scroll-margin-top:84px}
+@media(max-width:800px){.district-results{scroll-margin-top:72px}}
+
 /* Larger reading sizes throughout the page, scaled carefully for phones. */
 body{font-size:16px}
 .brand-caption{font-size:9px}
