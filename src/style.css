@@ -282,3 +282,8 @@ body{font-size:16px}
   .why-photo img{opacity:.72}
   .why-overlay{background:linear-gradient(90deg,rgba(24,6,76,.72),rgba(33,7,105,.42))}
 }
+
+@media(min-width:801px){
+  .services-image-card{min-height:320px}
+  .services-image-card img{object-position:center top}
+}
